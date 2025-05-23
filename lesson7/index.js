@@ -27,9 +27,6 @@ const server = http.createServer((req, res) => {
          handleReadFile(404, "./views/error.html");
     }
 
-
-    // console.log(req.url);
-    // res.end("welcome to my first server")
 });
 
 server.listen(port, hostName, () => {
